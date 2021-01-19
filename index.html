@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>厳美渓オーダーメイド農園</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><img src="img/logo.png"></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#services" data-after="Service">事業内容</a></li>
+            <li><a href="#projects" data-after="Projects">商品をみる</a></li>
+            <li><a href="#about" data-after="About">当農園について</a></li>
+            <li><a href="#contact" data-after="Contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>厳美渓<span></span></h1>
+        <h1>オーダーメイド<span></span></h1>
+        <h1>農園<span></span></h1>
+        <a href="#projects" type="button" class="cta">獲れたて食材はこちら</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><span>事業内容</span></h1>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item item1">
+          <div class="icon"><img src="https://img.icons8.com/wired/64/000000/rice-bowl.png"/></div>
+          <h2>ひとめぼれの生産</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item item2">
+          <div class="icon"><img src="https://img.icons8.com/pastel-glyph/64/000000/vegetables-box.png"/></div>
+          <h2>多品目野菜の生産</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item item3">
+          <div class="icon"><img src="https://img.icons8.com/pastel-glyph/64/000000/box--v1.png"/></div>
+          <h2>農産物のネット販売</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item item4">
+          <div class="icon"><img src="https://img.icons8.com/dotty/80/000000/web-design.png"/></div>
+          <h2>Ｗｅｂサイト制作</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="services">
+   <div class="projects container">
+    <div class="content">
+     <div class="textBox">
+      <h1 class="section-title"><span>取り扱い商品一覧</span></h1>
+         <a href="#">販売ショップはこちら</a>
+     </div>
+        <div class="imgBox">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="project-item"><img src="./img/vegitable1.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola2.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola3.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola4.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola5.png"></div>
+            <div class="swiper-slide"><img src="./img/cocacola6.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      loop: true,
+    });
+  </script>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title"><span>このサイトについて</span></h1>
+        <h2></h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title"><span>お問い合わせ</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 234 123 1234</h2>
+            <h2>+1 234 123 1234</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>info@gmail.com</h2>
+            <h2>abcd@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Fatikchhari, Chittagong, Bangladesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>S</span>haif <span>A</span>rfan</h1></div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Arfan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
